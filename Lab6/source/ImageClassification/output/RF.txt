@@ -1,0 +1,9 @@
+Random Forest
+Accuracy:0.3333333333333333
+Precision:0.0
+FMeasure:0.0
+Recall:0.0
+Confusion Matrix:
+0.0  1.0  0.0  
+0.0  1.0  0.0  
+0.0  1.0  0.0  
