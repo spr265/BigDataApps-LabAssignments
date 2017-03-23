@@ -15,3 +15,5 @@ LAB6: https://github.com/sujithaPuthana/BigDataApps-Spring2016-LabAssignments/wi
 LAB7: https://github.com/sujithaPuthana/BigDataApps-Spring2016-LabAssignments/wiki/Lab7
 
 LAB8: https://github.com/sujithaPuthana/BigDataApps-Spring2016-LabAssignments/wiki/Lab8
+
+LAB9: https://github.com/sujithaPuthana/BigDataApps-Spring2016-LabAssignments/wiki/Lab9
