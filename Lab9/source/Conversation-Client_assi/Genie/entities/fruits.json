@@ -1,0 +1,33 @@
+{
+  "id": "2667a348-816e-4356-ad6b-5531b55a9ec6",
+  "name": "fruits",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "apple",
+      "synonyms": [
+        "apple"
+      ]
+    },
+    {
+      "value": "cherry",
+      "synonyms": [
+        "cherry"
+      ]
+    },
+    {
+      "value": "banana",
+      "synonyms": [
+        "banana"
+      ]
+    },
+    {
+      "value": "fruits",
+      "synonyms": [
+        "fruits"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -33,12 +33,13 @@ public class ImageService extends HttpServlet {
         if (parameters.get("fruits").toString().equals("fruits")) {
             JSONObject jsonObject = new JSONObject();
             JSONArray jsonArray = new JSONArray();
-            jsonArray.put("http://www.shanalogic.com/wordpress/wp-content/uploads2/2015/02/Mountain-Lion-Cub1-600x450.jpg");
-            jsonArray.put("https://images.pexels.com/photos/335910/pexels-photo-335910.jpeg");
-            jsonArray.put("https://images.pexels.com/photos/141496/pexels-photo-141496.jpeg");
-            jsonArray.put("https://images.pexels.com/photos/6468/animal-brown-horse.jpg");
-            jsonArray.put("https://images.pexels.com/photos/65006/pexels-photo-65006.jpeg");
-            jsonArray.put("https://images.pexels.com/photos/302304/pexels-photo-302304.jpeg");
+            jsonArray.put("https://s-media-cache-ak0.pinimg.com/originals/31/a4/5e/31a45eadae7141704d83816314cce0a8.jpg");
+            jsonArray.put("http://votreart.com/wp-content/uploads/2015/07/fruits-and-vegetables-wallpaper-3.jpg");
+            jsonArray.put("http://www.hdimageson.com/wp-content/uploads/2016/09/fruit-wallpapers.jpg");
+            jsonArray.put("http://www.newhealthadvisor.com/images/1HT18746/fruits_1.jpg");
+            jsonArray.put("http://vignette1.wikia.nocookie.net/phobia/images/6/6e/Fruit.jpg/revision/latest?cb=20161116022138");
+            jsonArray.put("https://media.mnn.com/assets/images/2016/02/fresh-fruits-market.jpg.653x0_q80_crop-smart.jpg");
+
             jsonObject.put("data", jsonArray);
             output = jsonObject.toString();
             Data data_ob = Data.getInstance();

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Tag</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="keys.js"></script>
+    <script type="text/javascript" src="clarifai.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+<div className="img-div">
+
+    <!--
+        <input type="text" id="imgurl" placeholder="Image URL" size="70"/>
+        <button onclick="run(document.getElementById('imgurl').value)" size="30"> Get tags!</button>
+        <button onclick="run('https://www.organicfacts.net/wp-content/uploads/2013/05/Apple4.jpg')" > Get tags!</button>
+        -->
+
+    <h1 align="center">
+        Click on image for tags
+<h1>
+    <h3 align="center"><div id="tags"></div> </h3>
+
+        <table style width="100%">
+            <tr>
+                <td style width="33%" height="10px">
+                    <button>
+                    <img src="http://www.theayurveda.org/wp-content/uploads/2015/08/Apple-fruit.jpg"
+                         onclick="run('https://www.organicfacts.net/wp-content/uploads/2013/05/Apple4.jpg')"/>
+                    </button> </td>
+
+                <td >
+                    <button>
+                    <img width="700px" height="500px" src="http://iqquotes.com/wp-content/uploads/2015/07/apple-fruit-3.jpg"
+                         onclick="run('http://iqquotes.com/wp-content/uploads/2015/07/apple-fruit-3.jpg')"/>
+                    </button> </td>
+
+
+                <td style width="33%" height="10px">
+                    <button>
+                    <img src="http://www.vigorous-tech.com/d/pic/3-fruit-powder/red-apple.jpg"
+                                           onclick="run('http://www.vigorous-tech.com/d/pic/3-fruit-powder/red-apple.jpg')"/>
+                    </button> </td>
+
+            </tr>
+            <tr>
+                <td style width="33%">
+                    <img src="http://www.opas.org.br/wp-content/uploads/2016/12/macas.jpg"/>
+                <td style width="33%">
+                <img src="http://www.clipartbest.com/cliparts/9ip/b6k/9ipb6k5GT.jpeg"/></td>
+                <td style width="33%"> <img src="http://www.26fruits.co.uk/images/full-fruit/apple.jpg"/>
+                </td>
+            </tr>
+
+        </table>
+
+
+
+</div>
+</body>
+</html>

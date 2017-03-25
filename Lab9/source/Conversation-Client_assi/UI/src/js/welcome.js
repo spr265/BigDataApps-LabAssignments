@@ -10,9 +10,9 @@ class Welcome extends React.Component {
                         <h3>Ask me a question...</h3>
                         <div className="row top-margin">
                             <h5>Below questions are supported for now..</h5>
-                            <div>Hey Genie.. Show me Horses?</div>
-                            <div>Show me cat pictures?</div>
-                            <div>Show me Dog photos?</div>
+                            <div>Hey Genie.. Show me Apples?</div>
+                            <div>Show me Cherry pictures?</div>
+                            <div>Show me Bananas photos?</div>
                             <div>Clear the screen</div>
                         </div>
                     </div>

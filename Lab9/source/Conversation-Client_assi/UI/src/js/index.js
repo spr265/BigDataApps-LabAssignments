@@ -19,7 +19,7 @@ class MainApp extends React.Component {
   }
 
   componentDidMount() {
-    let source = new EventSource('https://image-details.herokuapp.com/redirect');
+    let source = new EventSource('https://assi9.herokuapp.com/redirect');
     let that = this;
     let server_data = [];
     // console.log(source);
